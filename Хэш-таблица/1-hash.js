@@ -28,6 +28,7 @@ const majorityElement = function (nums) {
   // После цикла в res хранится элемент с максимальной частотой
 };
 
+console.log(majorityElement([3, 2, 3]));
 
 /*
 Что делает эта задача?
