@@ -26,6 +26,7 @@ function sortByFrequency(arr) {
   const sortedArray = Array.from(frequencyMap.keys()).sort((a, b) => {
     return frequencyMap.get(b) - frequencyMap.get(a);
   });
+  // Array.from(frequencyMap.keys()) превращает все ключи из Map в обычный массив
 
   return sortedArray;
 }
